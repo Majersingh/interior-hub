@@ -18,11 +18,11 @@ export default function Home() {
       <ImageCarousel />
       <OurStory />
       <Services />
+      <VideoFeed />
       <WhyChooseUs />
       <ProjectWalkthroughs />
       <ShopPreview />
       <OurWork />
-      <VideoFeed />
       <Cta/>
       <ContactForm/>
       <Footer />

@@ -15,11 +15,11 @@ export  const Cta = () => {
     <div>
       <motion.div
         style={{ opacity, y }}
-        className="fixed bottom-4 shadow-inner right-8 z-50 hover:scale-110 transition duration-200"
+        className="fixed bottom-16  shadow-inner right-8 z-50 hover:scale-110 transition duration-200"
       >
         <button
           className="gap-2 lg:p-4 p-3  rounded-full  bg-green-600 text-white"
-          onClick={() => handleWhatsApp}
+          onClick={handleWhatsApp}
         >
            <FaWhatsapp className="h-6 w-6 "/>
         </button>

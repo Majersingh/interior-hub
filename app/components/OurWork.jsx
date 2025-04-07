@@ -71,12 +71,12 @@ export const OurWork = () => {
           className="section-title"
         >
         <p className="text-3xl text-center md:text-4xl font-bold text-primary">
-         Our Work
+         Our Work Category
         </p>
         </motion.h2>
 
         <div
-            className="flex flex-row  w-full justify-between items-center bg-secondary transition-all duration-300 rounded-full"
+            className="flex flex-row bg-slate-100 w-full justify-evenly items-center bg-secondary transition-all duration-300 rounded-lg"
             // style={{ ...sliderStyle }}
         >
           {categories.map((category, index) => (
@@ -84,9 +84,9 @@ export const OurWork = () => {
               key={category.id}
               ref={(el) => (tabRefs.current[index] = el)}
               onClick={() => setActiveCategory(category.id)}
-              className={`rounded-full py-3 transition-colors duration-200 focus:outline-none ${
+              className={`rounded-full py-3 text-2xl text-gray-700  transition-colors duration-200 focus:outline-none ${
                 activeCategory === category.id
-                  ? 'text-secondary font-semibold underline'
+                  ? 'text-secondary font-bold  underline'
                   : 'text-primary hover:text-secondary'
               }`}
             >
