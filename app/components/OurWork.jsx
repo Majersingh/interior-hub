@@ -76,8 +76,7 @@ export const OurWork = () => {
         </motion.h2>
 
         <div
-            className="flex flex-row bg-slate-100 w-full justify-evenly items-center bg-secondary transition-all duration-300 rounded-lg"
-            // style={{ ...sliderStyle }}
+            className="flex flex-row bg-slate-100 w-full overflow-hidden justify-evenly items-center bg-secondary transition-all duration-300 rounded-lg"
         >
           {categories.map((category, index) => (
             <button

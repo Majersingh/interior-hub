@@ -62,7 +62,7 @@ const ContactForm = () => {
           Contact Us
         </motion.h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 overflow-hidden">
           {/* Contact Information */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {contactCards.map((card, index) => (
@@ -162,7 +162,7 @@ export default ContactForm;
 
 const MapEmbed = () => {
     return (
-      <div className="w-full h-[450px] rounded-xl overflow-hidden shadow-lg">
+      <div className="w-full h-[450px] rounded-xl overflow-hidden shadow-lg p-4">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d449196.1351540826!2d76.99746000251596!3d28.408850873977592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x24d1dfb3fa1bc83%3A0xbc814f9364b5ede3!2sTHE%20INTERIORHUB%20-%20Pvc%20panel%20Faridabad%20(Best%20pvc%20panel%20shop%20in%20FARIDABAD%2CLOUVERS%20SHOP!5e0!3m2!1sen!2sin!4v1744040381240!5m2!1sen!2sin"
           width="100%"

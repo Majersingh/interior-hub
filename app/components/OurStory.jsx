@@ -10,7 +10,7 @@ export const OurStory = () => {
         <h2 className="lg:hidden sm:hidden md:hidden block pb-2 text-center text-3xl md:text-4xl font-bold text-primary">
                 Our Story
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center overflow-hidden">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
