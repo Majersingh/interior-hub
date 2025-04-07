@@ -7,6 +7,9 @@ export const OurStory = () => {
   return (
     <section id="our-story" className="py-10 bg-accent">
       <div className="container px-4">
+        <h2 className="lg:hidden sm:hidden md:hidden block pb-2 text-center text-3xl md:text-4xl font-bold text-primary">
+                Our Story
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -30,7 +33,7 @@ export const OurStory = () => {
             viewport={{ once: true }}
             className="space-y-6"
           >
-            <h2 className=" text-center text-3xl md:text-4xl font-bold text-primary">
+            <h2 className="hidden lg:block text-center text-3xl md:text-4xl font-bold text-primary">
               Our Story
             </h2>
             <div className="text-secondary text-xl font-semibold">

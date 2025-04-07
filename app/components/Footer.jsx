@@ -5,8 +5,8 @@ import { FaInstagram, FaFacebook, FaPinterest } from 'react-icons/fa'
 
 export const Footer = () => {
   return (
-    <footer className="bg-primary text-white py-12">
-      <div className="container mx-auto px-4">
+    <footer className="bg-primary text-white">
+      <div className="container mx-auto p-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -15,7 +15,7 @@ export const Footer = () => {
             viewport={{ once: true }}
             className="text-center md:text-left"
           >
-            <h3 className="text-2xl font-bold mb-4">InteriorHub</h3>
+            <h3 className="text-2xl text-black font-bold mb-4"> Interior<span className='text-orange-400'>Hub</span></h3>
             <p className="text-gray-400">
               Transform your space with our luxury interior design services.
             </p>
@@ -60,7 +60,7 @@ export const Footer = () => {
             <p className="text-gray-400">
               © 2024 InteriorHub
               <br />
-              Website designed by: S7 Designs
+              Website designed by: Majersingh
             </p>
           </motion.div>
         </div>

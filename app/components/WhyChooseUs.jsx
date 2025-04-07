@@ -20,7 +20,7 @@ export const WhyChooseUs = () => {
             Infuse artistry and a unique personality into your space with exquisite
             artifacts.
           </p>
-          <div className="text-secondary text-lg font-semibold">
+          <div className="pt-2 text-secondary  text-sm italic text-slate-500">
             — Creative Director
           </div>
         </motion.div>

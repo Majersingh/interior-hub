@@ -54,7 +54,7 @@ export const Services = () => {
         >
          <p className="text-3xl p-2 md:text-4xl font-bold text-primary">
               Our Service
-            </p>
+          </p>
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -75,14 +75,14 @@ export const Services = () => {
                 />
                 <div className="absolute inset-0 bg-black/40 transition-opacity duration-300 group-hover:opacity-60" />
               </div>
-              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="absolute inset-0 flex items-center justify-center lg:opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="text-center">
                   <h3 className="text-2xl font-bold text-white mb-4">
                     {service.title}
                   </h3>
-                  <button className="btn bg-secondary hover:bg-secondary/90">
+                  {/* <button className="btn bg-secondary hover:bg-secondary/90">
                     Know More
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </motion.div>

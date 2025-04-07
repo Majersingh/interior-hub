@@ -61,7 +61,7 @@ export const OurWork = () => {
 
 
   return (
-    <section className="">
+    <section id='our-works' className="">
       <div className="container mx-auto px-4">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -75,28 +75,25 @@ export const OurWork = () => {
         </p>
         </motion.h2>
 
-        <div className="relative flex justify-center space-x-4 my-4">
-          {/* Slider Underline */}
-          <div
-            className="absolute bottom-0 h-1 bg-secondary transition-all duration-300 rounded-full"
-            style={{ ...sliderStyle }}
-          />
-
+        <div
+            className="flex flex-row  w-full justify-between items-center bg-secondary transition-all duration-300 rounded-full"
+            // style={{ ...sliderStyle }}
+        >
           {categories.map((category, index) => (
             <button
               key={category.id}
               ref={(el) => (tabRefs.current[index] = el)}
               onClick={() => setActiveCategory(category.id)}
-              className={`relative px-6 py-2 text-xl rounded-full text-sm transition-colors duration-200 focus:outline-none ${
+              className={`rounded-full py-3 transition-colors duration-200 focus:outline-none ${
                 activeCategory === category.id
-                  ? 'text-secondary font-semibold'
+                  ? 'text-secondary font-semibold underline'
                   : 'text-primary hover:text-secondary'
               }`}
             >
               {category.name}
             </button>
           ))}
-        </div>
+          </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects[activeCategory].map((project, index) => (
@@ -116,14 +113,14 @@ export const OurWork = () => {
                 />
                 <div className="absolute inset-0 bg-black/40 transition-opacity duration-300 group-hover:opacity-60" />
               </div>
-              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="absolute inset-0 flex items-center justify-center lg:opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="text-center">
                   <h3 className="text-2xl font-bold text-white mb-4">
                     {project.title}
                   </h3>
-                  <button className="btn bg-secondary hover:bg-secondary/90">
+                  {/* <button className="btn bg-secondary hover:bg-secondary/90">
                     View Project
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </motion.div>

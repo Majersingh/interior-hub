@@ -24,7 +24,7 @@ const projects = [
 
 export const ProjectWalkthroughs = () => {
   return (
-    <section id="projects" className="py-20">
+    <section id="projects" className="py-10">
       <div className="container mx-auto px-4">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -57,14 +57,14 @@ export const ProjectWalkthroughs = () => {
                 />
                 <div className="absolute inset-0 bg-black/40 transition-opacity duration-300 group-hover:opacity-60" />
               </div>
-              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="absolute inset-0 flex items-center justify-center lg:opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="text-center">
                   <h3 className="text-2xl font-bold text-white mb-4">
                     {project.title}
                   </h3>
-                  <button className="btn bg-secondary hover:bg-secondary/90">
+                  {/* <button className="btn bg-secondary hover:bg-secondary/90">
                     View Project
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </motion.div>
