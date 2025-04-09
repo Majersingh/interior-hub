@@ -47,7 +47,7 @@ export const VideoFeed = () => {
           className="section-title"
         >
           <p className="text-3xl text-center pb-10 md:text-4xl font-bold text-primary">
-          Our Galleries
+          Our Gallery
         </p>
         </motion.h2>
 

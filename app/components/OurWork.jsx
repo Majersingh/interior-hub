@@ -83,7 +83,7 @@ export const OurWork = () => {
               key={category.id}
               ref={(el) => (tabRefs.current[index] = el)}
               onClick={() => setActiveCategory(category.id)}
-              className={`rounded-full py-3 text-2xl text-gray-700  transition-colors duration-200 focus:outline-none ${
+              className={`rounded-full py-3 lg:text-2xl  text-gray-700  transition-colors duration-200 focus:outline-none ${
                 activeCategory === category.id
                   ? 'text-secondary font-bold  underline'
                   : 'text-primary hover:text-secondary'

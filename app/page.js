@@ -5,9 +5,9 @@ import { OurStory } from './components/OurStory'
 import { Services } from './components/Services'
 import { WhyChooseUs } from './components/WhyChooseUs'
 import { ProjectWalkthroughs } from './components/ProjectWalkthroughs'
-import { ShopPreview } from './components/ShopPreview'
+import { ShopPreview } from './components/Acessories'
 import { OurWork } from './components/OurWork'
-import { VideoFeed } from './components/VideoFeed'
+import { VideoFeed } from './components/OurGallery'
 import { Footer } from './components/Footer'
 import ContactForm from './components/ContactForm'
 
@@ -19,10 +19,10 @@ export default function Home() {
       <OurStory />
       <Services />
       <VideoFeed />
-      <WhyChooseUs />
       <ProjectWalkthroughs />
       <ShopPreview />
       <OurWork />
+      <WhyChooseUs />
       <Cta/>
       <ContactForm/>
       <Footer />

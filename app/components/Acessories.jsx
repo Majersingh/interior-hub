@@ -28,7 +28,7 @@ const categories = [
 
 export const ShopPreview = () => {
   return (
-    <section id="shop" className="bg-accent">
+    <section id="accessories" className="bg-accent">
       <div className="container mx-auto px-4">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -38,7 +38,7 @@ export const ShopPreview = () => {
           className="section-title"
         >
         <p className="text-3xl text-center pb-10 md:text-4xl font-bold text-primary">
-          Shop 
+          Accessories
         </p>
         </motion.h2>
 

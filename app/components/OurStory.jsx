@@ -38,7 +38,7 @@ export const OurStory = () => {
               Our Story
             </h2>
             <div className="text-secondary text-xl font-semibold">
-              Started in 2013
+              Started in 2019
             </div>
             <div className="space-y-4 text-gray-600">
               <p>

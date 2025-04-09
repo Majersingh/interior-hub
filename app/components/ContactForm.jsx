@@ -18,7 +18,7 @@ const ContactForm = () => {
   };
 
   const handleWhatsApp = () => {
-    const whatsappLink = `https://wa.me/919876543210?text=Hello, I'm interested in your services`;
+    const whatsappLink = `https://wa.me/919599387676?text=Hello, I'm interested in your services`;
     window.open(whatsappLink, '_blank');
   };
 
@@ -26,13 +26,13 @@ const ContactForm = () => {
     {
       icon: <FaMapMarked className="text-3xl text-secondary" />,
       title: "Our Location",
-      content: "123 Interior Design Street\nFaridabad District\nNCR 100001, INDIA",
+      content: "1520 H.N CHAMUNDA MANDIR GALI \n JAWAHAR COLONY NIT FARIDABAD 121005 HARIYANA \n India",
       action: null
     },
     {
       icon: <FaPhone className="text-3xl text-secondary" />,
       title: "Phone Number",
-      content: "+1 (123) 456-7890",
+      content: "917982981445",
       action: null
     },
     {
