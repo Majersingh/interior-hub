@@ -19,7 +19,6 @@ export default function Home() {
       <OurStory />
       <Services />
       <VideoFeed />
-      // <ProjectWalkthroughs />
       <ShopPreview />
       <OurWork />
       <WhyChooseUs />
